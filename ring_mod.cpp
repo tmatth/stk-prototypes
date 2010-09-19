@@ -73,7 +73,8 @@ int main()
         return cleanup(adac);
     }
 
-    effects.sine.setFrequency(25);
+    // set the frequency of our modulator
+    effects.sine.setFrequency(440);
 
     try { 
         adac.startStream();
